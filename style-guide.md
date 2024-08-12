@@ -29,4 +29,6 @@ The designs were created to the following widths:
 - Family: [Figtree](https://fonts.google.com/specimen/Figtree)
 - Weights: 500, 800
 
+The font sizes in this project are slightly smaller in the mobile layout. Find a way to reduce font size for smaller screens without using media queries.
+
 > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
