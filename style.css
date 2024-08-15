@@ -14,6 +14,7 @@
 
 body{
     background-color: hsl(47, 88%, 63%) ;
+    font-family: "Figtree", sans-serif;
 }
 
 main{
@@ -27,7 +28,6 @@ main{
     border-radius: 20px;
     padding: 24px 24px;
     box-shadow: 8px 8px black;
-
 }
 
 main:hover{
@@ -37,14 +37,39 @@ main:hover{
     border-radius: 10px;
 }
 
-.learning{
- margin-top: 0px;
+.content-txt{
+    margin-top: 20px;
+    width: 336px;
+    height: 194px;
 }
 
-.content-txt{
-    margin-top: 12px;
+.learning{    
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    width: 85px;
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 800;    
+}
+.published{
+    margin-top: 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.foundations{
+    margin-top: 18px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.details{
+    margin-top: 16px;
+    line-height: 1.5rem;
 }
 
 .name{
-    margin-top: 12px;
+    margin-top: 30px;
 }
