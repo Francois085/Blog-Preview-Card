@@ -30,9 +30,13 @@ main{
     box-shadow: 8px 8px black;
 }
 
-main:hover{
+main:hover  {
     box-shadow: 16px 16px black;
 }
+main:hover .foundations{
+    color: hsl(47, 88%, 63%);
+}
+
  #svgWrapper{
     border-radius: 10px;
 }
@@ -64,12 +68,22 @@ main:hover{
     font-size: 1.5rem;
     font-weight: 800;
 }
-
+ 
 .details{
     margin-top: 16px;
     line-height: 1.5rem;
 }
 
 .name{
-    margin-top: 30px;
+    display: flex;
+    width: 129px;
+    height: 32px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    gap: 12px;
+    align-items:center;
+    font-weight: 900;
+}
+.name img{
+    height: 32px;
 }
