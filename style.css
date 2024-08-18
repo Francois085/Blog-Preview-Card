@@ -98,11 +98,22 @@ main:hover .foundations{
     main {
         width: 327px;
         height: 501px;
+        border: 1px solid #262626;
+        font-size: 0.9rem;
         
     }
-    #svgWrapper{
-        width: 279px;
+    .logo{
+        height: 200px;
+        overflow: hidden;
         border-radius: 10px;
-
     }
+
+    main:hover  {
+        box-shadow: 8px 8px black;     
+    }
+
+    main:hover .foundations{
+        color: black;
+    }
+
 }
